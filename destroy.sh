@@ -2,6 +2,6 @@
 set -e
 
 Echo "Destroying infrastructure..."
-terraform -chdir=terraform destory -auto-approve
+terraform -chdir=terraform destroy -auto-approve
 
 echo "Destroyed!"
